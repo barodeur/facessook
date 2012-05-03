@@ -10,6 +10,6 @@ class App < Sinatra::Base
   end
 
   get '*' do
-    redirect "http://facebook.com#{request.env['PATH_INFO']}", 301
+    redirect "http://facebook.com#{request.env['PATH_INFO']}", 302
   end
 end
