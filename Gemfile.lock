@@ -14,6 +14,7 @@ GEM
     method_source (0.7.1)
     mime-types (1.18)
     netrc (0.7.1)
+    newrelic_rpm (3.3.2)
     pry (0.9.8.4)
       coderay (~> 1.0.5)
       method_source (~> 0.7.1)
@@ -43,6 +44,7 @@ PLATFORMS
 
 DEPENDENCIES
   heroku
+  newrelic_rpm
   pry
   shotgun
   sinatra
