@@ -4,5 +4,5 @@ Facessook::Application.routes.draw do
   get '/to_facebook' => 'cybersquatting#to_facebook'
 
   # wildcard
-  get '/*wildcard' => 'cybersquatting#index'
+  #get '/*wildcard' => 'cybersquatting#index'
 end
