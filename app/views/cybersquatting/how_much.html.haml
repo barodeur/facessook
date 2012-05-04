@@ -1,0 +1,10 @@
+!!!
+%form{method: 'GET'}
+  %input{type: 'text', name: 'd', placeholder: 'domain, eg: facebook', value: @domain}
+  %input{type: 'text', name: 'domain_price', placeholder: 'price, eg: 4.99', value: @domain_price}
+  %input{type: 'submit'}
+
+%p.total= "#{@domains.length} domains * $#{@domain_price} = $#{@price}"
+%ul
+  - @domains.each do |d|
+    %li= d
