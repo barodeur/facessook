@@ -1,6 +1,6 @@
 class window.HomeView
   constructor: ->
-    setTimeout @toggle, 3000
+    setTimeout @toggle, 1500
 
     $('a').click (e) =>
       e.preventDefault()
