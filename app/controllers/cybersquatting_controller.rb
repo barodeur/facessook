@@ -31,7 +31,7 @@ class CybersquattingController < ApplicationController
       ary.flatten
     end
 
-    @price = @domain_price * @domains.length
+    @price = @domain_price * (@domains.length - 1)
     r = {domains: @domains, price: @price}
     respond_with r.to_json
   end
