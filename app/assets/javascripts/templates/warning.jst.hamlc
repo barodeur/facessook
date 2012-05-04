@@ -22,9 +22,6 @@
     %a{href: '/how_much', target: '_blank'}
       je compte 12 287 cybersquattages possibles pour facebook.fr
       soit environ $61317.
-  %p
-    Si vous êtes webmestre, je vous invite à
-    %a{href: '/how_much', target: '_blank'} calculer combien vous devrez dépenser pour vous prémunir de ce danger.
   %p Merci de votre attention.
 
   %p.more

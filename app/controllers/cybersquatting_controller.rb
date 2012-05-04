@@ -9,8 +9,8 @@ class CybersquattingController < ApplicationController
   end
 
   def how_much
-    @domain = params[:d] || 'facebook'
-    @domain_price = params[:domain_price].try(:to_f) || 4.99
+    @domain = 'facebook'
+    @domain_price = 4.99
 
     # ß, à, á, â, ã, ä, å, æ, ç, è, é, ê, ë, ì, í
     # î, ï, ñ, ò, ó, ô, õ, ö, ù, ú, û, ü, ý, ÿ, œ
