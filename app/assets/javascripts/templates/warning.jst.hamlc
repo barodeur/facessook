@@ -1,12 +1,32 @@
 #warning
   #content
-    %h1 Attention, vous étiez à deux doigts de vous faire hameçonner !
-      
-    %p faceßook.fr
-    %p En savoir plus => korben
+    %header
+      %p Bonjour,
+    %p
+      Je m'appele Paul Chobert et j'aimerais vous sensibiliser au danger des noms
+      de domaines accentués.
+      En effet, lorsque vous êtes arrivé sur ce site, vous pensiez certainement trouver
+      Facebook.
+      Or ce site n'a rien à voir avec Facebook, ormis le "cybersquattage" du nom de domaine
+      et l'emprun de la page d'accueil.
+      Vous avez été trompé parce que j'utilise le nom de domaine faceßook.fr dont le
+      ß ressemble beaucoup à un B.
+    %p
+      Cette tromperie est rendu possible à cause de l'autorisation de la vente des
+      nom de domaines accentués. Car il est désormait possible d'acheter des nom de domaine
+      tel que gôogle.fr lémonde.fr etc...
+
+    %p
+      %a{href: 'http://korben.info/noms-de-domaine-accentues-la-fausse-bonne-idee.html', target: '_blank'} En savoir plus
     %footer
-      .why En savoir 
-      .facebook Vous travaillez chez facebook ?
-      .
+      %ul
+        %li.who qui suis-je ?
+        %li.facebook Vous travaillez chez facebook ?
+        %li.twitter https://twitter.com/barodeur
+        %li.github https://github.com/barodeur/facessook
+      .made-with-love
+        Fait avec <span class="heart">♥</span> depuis Strasbourg
+
+
 
 

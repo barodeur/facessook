@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti)
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700)
 
 #warning
@@ -10,23 +11,44 @@
   padding: 30px
 
   // Background
-  background: rgba(180, 0, 0, 0.8)
+  background: rgba(0, 0, 0, 0.8)
 
   // Font
-  font-size: 24pt
+  font-size: 16pt
   font-family: 'Open Sans'
+  font-weight: 300
 
   #content
+    header
+      p
+        font-size: 24pt
+        font-family: 'Calligraffitti'
+
+    p
+      text-align: justify
+      line-height: 1.6em
+
     border: 3px solid rgb(180, 0, 0)
     padding: 30px
     width: 800px
     margin: auto
     background: white
-    background-image: image-url('hook.png')
-    background-repeat: no-repeat
-    //background-attachment:fixed
-    background-position: top right
 
   footer
-    font-size: 10pt
+    font-size: 12pt
 
+    ul
+      li
+        float: left
+
+      &:after
+        content: '.'
+        clear: both
+        visibility: hidden
+
+    .made-with-love
+      margin-top: 20px
+      text-align: center
+
+      .heart
+        color: #dd4299
