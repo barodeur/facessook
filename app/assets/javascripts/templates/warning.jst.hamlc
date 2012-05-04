@@ -1,43 +1,43 @@
 #warning
-  #content
-    %header
-      %p Bonjour,
-    %p
-      Je m'appelle Paul Chobert et j'aimerais vous sensibiliser au danger des noms
-      de domaine accentués.
-      En effet, lorsque vous êtes arrivé sur ce site, vous penssiez certainement trouver
-      Facebook.
-      Or ce site n'a rien à voir avec Facebook, ormis le "cybersquattage" du nom de domaine
-      et l'emprunt de la page d'accueil.
-      Vous avez été trompé parce que j'utilise le nom de domaine faceßook.fr dont le
-      ß ressemble beaucoup à un B.
-      <strong>Cette tromperie est rendue possible à cause de l'autorisation de la vente des
-      nom de domaine accentués.</strong> Car il est désormait possible d'acheter des nom de domaine
-      tels que gôogle.fr lémonde.fr etc...
-    %p
-      La distrubution de ces noms de domaine n'apporte que de la <strong>confusion</strong> auprès des
-      usagers du web ainsi que des rentrées d'argent pour ceux qui vont vendre tout
-      ces domaines.
-      Par exemple
-      %a{href: '/how_much', target: '_blank'}
-        je compte 12 288 cybersquattages possibles pour facebook.fr
-        soit environ $61317.
-    %p Merci de votre attention.
+#content-facessook
+  %header
+    %p Bonjour,
+  %p
+    Je m'appelle Paul Chobert et j'aimerais vous sensibiliser au danger des noms
+    de domaine accentués.
+    En effet, lorsque vous êtes arrivé sur ce site, vous penssiez certainement trouver
+    Facebook.
+    Or ce site n'a rien à voir avec Facebook, ormis le "cybersquattage" du nom de domaine
+    et l'emprunt de la page d'accueil.
+    Vous avez été trompé parce que j'utilise le nom de domaine faceßook.fr dont le
+    ß ressemble beaucoup à un B.
+    <strong>Cette tromperie est rendue possible à cause de l'autorisation de la vente des
+    nom de domaine accentués.</strong> Car il est désormait possible d'acheter des nom de domaine
+    tels que gôogle.fr lémonde.fr etc...
+  %p
+    La distrubution de ces noms de domaine n'apporte que de la <strong>confusion</strong> auprès des
+    usagers du web ainsi que des rentrées d'argent pour ceux qui vont vendre tout
+    ces domaines.
+    Par exemple
+    %a{href: '/how_much', target: '_blank'}
+      je compte 12 288 cybersquattages possibles pour facebook.fr
+      soit environ $61317.
+  %p Merci de votre attention.
 
-    %p.more
-      %a{href: 'http://korben.info/noms-de-domaine-accentues-la-fausse-bonne-idee.html', target: '_blank'} En savoir plus
-    %footer
-      %ul
-        %li.who
-          %a{target: '_blank', href: 'http://fr.linkedin.com/in/paulchobert'} Je cherche un stage !
-        %li.facebook
-          %a{href: 'to_facebook'} Vous travaillez chez facebook ?
-        %li.twitter
-          %a{target: '_blank', href: 'https://twitter.com/barodeur'} Mon twitter
-        %li.github
-          %a{target: '_blank', href: 'https://github.com/barodeur/facessook'} Sources du projet
-      .made-with-love
-        Fait avec <span class="heart">♥</span> depuis Strasbourg
+  %p.more
+    %a{href: 'http://korben.info/noms-de-domaine-accentues-la-fausse-bonne-idee.html', target: '_blank'} En savoir plus
+  %footer
+    %ul
+      %li.who
+        %a{target: '_blank', href: 'http://fr.linkedin.com/in/paulchobert'} Je cherche un stage !
+      %li.facebook
+        %a{href: 'to_facebook'} Vous travaillez chez facebook ?
+      %li.twitter
+        %a{target: '_blank', href: 'https://twitter.com/barodeur'} Mon twitter
+      %li.github
+        %a{target: '_blank', href: 'https://github.com/barodeur/facessook'} Sources du projet
+    .made-with-love
+      Fait avec <span class="heart">♥</span> depuis Strasbourg
 
 
 
