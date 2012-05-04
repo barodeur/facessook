@@ -30,5 +30,6 @@ class App < Sinatra::Base
     protected! if settings.environment == :staging
 
     # APP
+    erb :index
   end
 end
