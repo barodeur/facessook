@@ -1,9 +1,11 @@
 #encoding: utf-8
 class CybersquattingController < ApplicationController
-  respond_to :html, :json
+  respond_to :html, :json, :text
+
+  layout false
 
   def index
-    render :index, layout: false
+    render :index
   end
 
   def how_much
@@ -34,5 +36,10 @@ class CybersquattingController < ApplicationController
     @price = @domain_price * @domains.length
     r = {domains: @domains, price: @price}
     respond_with r.to_json
+  end
+
+  def to_facebook
+    request.format = :txt
+    respond_with
   end
 end
