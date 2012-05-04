@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   protected
     def protect_environments!
       # redirect production version
-      return redirect_to "http://facebook.com#{request.env['PATH_INFO']}", status: 302 if Rails.env.production?
+      #return redirect_to "http://facebook.com#{request.env['PATH_INFO']}", status: 302 if Rails.env.production?
 
       # protect staging env
       if Rails.env.staging?
