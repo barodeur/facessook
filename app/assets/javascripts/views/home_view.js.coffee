@@ -5,6 +5,9 @@ class window.HomeView
     $('a').click (e) =>
       e.preventDefault()
 
+    $('form').submit (e) =>
+      e.preventDefault()
+
     # toggle on click
     $('body').click =>
       @toggle()
