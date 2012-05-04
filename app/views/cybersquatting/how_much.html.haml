@@ -6,3 +6,4 @@
     #content
     :javascript
       jQuery(function() {new HowMuchView()})
+    = render 'analytics' if Rails.env.production?
