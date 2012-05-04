@@ -14,7 +14,7 @@
   background: rgba(0, 0, 0, 0.8)
 
   // Font
-  font-size: 16pt
+  font-size: 18pt
   font-family: 'Open Sans'
   font-weight: 300
 
@@ -26,7 +26,10 @@
 
     p
       text-align: justify
-      line-height: 1.6em
+      line-height: 1.8em
+
+      &.more
+        text-align: center
 
     border: 3px solid rgb(180, 0, 0)
     padding: 30px
@@ -38,8 +41,14 @@
     font-size: 12pt
 
     ul
+      text-align: center
       li
-        float: left
+        display: inline
+        margin: 0px 10px 0px 10px
+
+        &.who
+          a
+            font-weight: bold
 
       &:after
         content: '.'
