@@ -27,3 +27,5 @@ end
 gem 'jquery-rails'
 gem 'pry-rails'
 gem 'heroku'
+gem 'bootstrap-sass'
+gem 'haml_coffee_assets'

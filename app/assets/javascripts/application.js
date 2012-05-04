@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require hamlcoffee
+//= require_tree ./templates
+//= require_tree ./views
