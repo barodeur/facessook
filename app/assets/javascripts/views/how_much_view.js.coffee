@@ -16,7 +16,7 @@ class window.HowMuchView
       @render()
 
   compute: ->
-    console.log @
+    _gaq?.push(['_trackEvent', 'Compute', @domain, @domainPrice])
     @domains = @domain.split('').reduce (ary, c) =>
       r = new Array()
       for partialDomain in ary
@@ -24,7 +24,7 @@ class window.HowMuchView
         if @squattingTable[c] then r.push "#{partialDomain}#{sc}" for sc in @squattingTable[c]
       r
     @price = @domains.length * @domainPrice
-    console.log @
+    @
 
 
   squattingTable:
