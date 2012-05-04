@@ -4,8 +4,6 @@ class CybersquattingController < ApplicationController
 
   layout false
 
-  caches_action :how_much
-
   def index
     render :index
   end
