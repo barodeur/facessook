@@ -1,0 +1,8 @@
+%form
+  %input{type: 'text', name: 'domain', placeholder: 'domain, eg: facebook', value: @domain}
+  %input{type: 'text', name: 'domain_price', placeholder: 'price, eg: 4.99', value: @domainPrice}
+  %input{type: 'submit'}
+%p.total= "#{@domains.length} domains * $#{@domainPrice} = $#{@price}"
+%ul
+  - for domain in @domains
+    %li= domain
