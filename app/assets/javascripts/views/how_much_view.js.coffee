@@ -17,12 +17,13 @@ class window.HowMuchView
 
   compute: ->
     _gaq?.push(['_trackEvent', 'Compute', @domain, @domainPrice])
-    @domains = @domain.split('').reduce (ary, c) =>
-      r = new Array()
-      for partialDomain in ary
-        r.push "#{partialDomain}#{c}"
-        if @squattingTable[c] then r.push "#{partialDomain}#{sc}" for sc in @squattingTable[c]
-      r
+    @domains = @domain.split('').reduce ((ary, c) =>
+        r = new Array()
+        for partialDomain in ary
+          r.push "#{partialDomain}#{c}"
+          if @squattingTable[c]
+            r.push "#{partialDomain}#{sc}" for sc in @squattingTable[c]
+        r), new Array('')
     @price = @domains.length * @domainPrice
     @
 
